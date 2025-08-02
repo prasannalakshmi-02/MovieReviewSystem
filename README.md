@@ -7,28 +7,22 @@ A console-based Java application that allows users to add movies, rate them, and
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
+- **Main.java** – Entry point of the application
+- **Data/**
+  - `LoadData.java` – Loads user data from CSV
+  - `LoadMovies.java` – Loads movie data from CSV
+  - `LoadRatings.java` – Loads rating data from CSV
+- **Model/**
+  - `User.java`, `Movies.java`, `Rating.java` – Entity classes
+  - `Cast.java`, `Crew.java` – Additional metadata classes
+- **Service/**
+  - `UserOperations.java`, `MovieOperations.java`, `RatingsOperations.java` – Interfaces for business logic
+- **ServiceImpl/**
+  - `UserOperationsImpl.java`, `MovieOperationsImpl.java`, `RatingsOperationsImpl.java` – Implementation of service logic
 
 
-MiniProject/
-├── Data/
-│   ├── LoadData.java
-│   ├── LoadMovies.java
-│   └── LoadRatings.java
-├── Model/
-│   ├── User.java
-│   ├── Movies.java
-│   ├── Rating.java
-│   ├── Cast.java
-│   └── Crew\.java
-├── Service/
-│   ├── UserOperations.java
-│   ├── MovieOperations.java
-│   └── RatingsOperations.java
-├── ServiceImpl/
-│   ├── UserOperationsImpl.java
-│   ├── MovieOperationsImpl.java
-│   └── RatingsOperationsImpl.java
-└── Main.java
 
 ## 🧠 Features
 
