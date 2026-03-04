@@ -7,7 +7,6 @@ A console-based Java application that allows users to add movies, rate them, and
 
 ## 📁 Project Structure
 
-```
 
 - **Main.java** – Entry point of the application
 - **Data/**
@@ -22,9 +21,6 @@ A console-based Java application that allows users to add movies, rate them, and
 - **ServiceImpl/**
   - `UserOperationsImpl.java`, `MovieOperationsImpl.java`, `RatingsOperationsImpl.java`, `Application.java`, `ApplicationOperations.java` – Implementation of service logic
 
-````
-
----
 
 ## 🧠 Features
 
@@ -49,13 +45,13 @@ A console-based Java application that allows users to add movies, rate them, and
 1. Clone the repository:
    ```bash
    git clone https://github.com/prasannalakshmi-02/MovieReviewSystem.git
-````
+
 
 2. Open in any IDE (Eclipse, VS Code, etc.)
 3. Ensure the CSV files (`users.csv`, `movies.csv`, `ratings.csv`) are available at the right path
 4. Run `Main.java` to interact via console
 
----
+
 
 ## 📖 Learning Highlights
 
@@ -64,16 +60,17 @@ A console-based Java application that allows users to add movies, rate them, and
 * Structuring a real-world console project with layers (Model, Service, Implementation)
 * Handling CSV data parsing using `BufferedReader`
 
----
 
 ## 👩‍💻 Author
 
 **Prasanna Lakshmi Motati**
+
 📧 [prasannalakshmimotati@gmail.com](mailto:prasannalakshmimotati@gmail.com)
+
 🔗 [LinkedIn](https://www.linkedin.com/in/prasanna-lakshmi-motati-b4462232b/)
+
 💻 [GitHub](https://github.com/prasannalakshmi-02)
 
-```
 
 
 
